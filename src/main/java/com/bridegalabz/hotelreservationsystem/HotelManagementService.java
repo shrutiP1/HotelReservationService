@@ -10,6 +10,7 @@ public class HotelManagementService {
     public static boolean printWelcome(String welcome) {
         System.out.println("Welcome");
         return true;
+
     }
 
     public boolean addHotel(Hotel O) {
