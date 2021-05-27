@@ -47,6 +47,7 @@ public class HotelManagementTest {
         LocalDate finalDate=LocalDate.parse("11Mar2020",DATE_RANGE_FORMAT);
         String cheapHotel=hotelReservationService.findCheapHotelRate(initialDate,finalDate);
         Assertions.assertEquals("LakeWood",cheapHotel);
+
     }
 
 }

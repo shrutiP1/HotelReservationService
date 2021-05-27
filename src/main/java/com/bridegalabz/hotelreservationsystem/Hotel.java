@@ -26,7 +26,7 @@ public class Hotel
         totalDays = (int) noOfDaysBetween + 1;
         //System.out.println( totalDays);
         int min = 0;
-        int count = 0;
+        int count=0;
         int cheapRateArray[] = new int[hotelReservationList.size()];
         for (int i = 0; i < hotelReservationList.size(); i++) {
             Map<CustomerType, Rate> h1 = hotelReservationList.get(i).rate;
