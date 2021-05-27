@@ -43,9 +43,9 @@ public class HotelManagementTest {
     @Test
     public void givenDates_WHenGiven_ShouldReturnCheapHotel()
     {
-        LocalDate intialDate=LocalDate.parse("10Mar2020",DATE_RANGE_FORMAT);
+        LocalDate initialDate=LocalDate.parse("10Mar2020",DATE_RANGE_FORMAT);
         LocalDate finalDate=LocalDate.parse("11Mar2020",DATE_RANGE_FORMAT);
-        String cheapHotel=hotelReservationService.findCheapHotelRate(intialDate,finalDate);
+        String cheapHotel=hotelReservationService.findCheapHotelRate(initialDate,finalDate);
         Assertions.assertEquals("LakeWood",cheapHotel);
     }
 

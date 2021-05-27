@@ -21,8 +21,8 @@ public class Hotel
     }
     Hotel(){};
 
-    public static int getCheapRate(LocalDate intialDate, LocalDate finalDate, List<Hotel> hotelReservationList) {
-        long noOfDaysBetween = DAYS.between(intialDate, finalDate);
+    public static int getCheapRate(LocalDate initialDate, LocalDate finalDate, List<Hotel> hotelReservationList) {
+        long noOfDaysBetween = DAYS.between(initialDate, finalDate);
         totalDays = (int) noOfDaysBetween + 1;
         //System.out.println( totalDays);
         int min = 0;
